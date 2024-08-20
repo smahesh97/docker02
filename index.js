@@ -3,7 +3,8 @@ const express = require("express");
 const app = express();
 
 app.get("/", (req, res) => {
-  res.send("Biden and Clinton both ripped Trump as the Democratic Party embraces a younger nominee!!!!!!");
+  res.send("I know not with what weapons World War III will be fought, but World War IV will be fought with sticks and stones.”
+― Albert Einstein:)");
 });
 
 app.get("/info", (req, res) => {
